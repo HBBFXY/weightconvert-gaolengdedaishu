@@ -1,4 +1,4 @@
-zhongliang = input("输入重量")
+zhongliang = input()
 num = float(zhongliang[:-2])
 if zhongliang[-2:] == "kg" :
     jieguo = num * 2.2046
